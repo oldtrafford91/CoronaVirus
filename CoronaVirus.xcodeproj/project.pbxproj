@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		E15C2E4E241F98620025EC41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C2E4D241F98620025EC41 /* AppDelegate.swift */; };
 		E15C2E50241F98620025EC41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C2E4F241F98620025EC41 /* SceneDelegate.swift */; };
-		E15C2E52241F98620025EC41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C2E51241F98620025EC41 /* ViewController.swift */; };
+		E15C2E52241F98620025EC41 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C2E51241F98620025EC41 /* MapViewController.swift */; };
 		E15C2E55241F98620025EC41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15C2E53241F98620025EC41 /* Main.storyboard */; };
 		E15C2E57241F987A0025EC41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15C2E56241F987A0025EC41 /* Assets.xcassets */; };
 		E15C2E5A241F987B0025EC41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15C2E58241F987B0025EC41 /* LaunchScreen.storyboard */; };
@@ -30,7 +30,7 @@
 		E15C2E4A241F98620025EC41 /* CoronaVirus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoronaVirus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15C2E4D241F98620025EC41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E15C2E4F241F98620025EC41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E15C2E51241F98620025EC41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E15C2E51241F98620025EC41 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		E15C2E54241F98620025EC41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E15C2E56241F987A0025EC41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E15C2E59241F987B0025EC41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -79,7 +79,10 @@
 			isa = PBXGroup;
 			children = (
 				E15C2E61241F99010025EC41 /* App */,
-				E15C2E51241F98620025EC41 /* ViewController.swift */,
+				E1A33A532420CE2C00B85993 /* DataLayer */,
+				E1A33A592420DF0700B85993 /* View */,
+				E1A33A522420CE1800B85993 /* Scenes */,
+				E1A33A5A2420DF5E00B85993 /* Extensions */,
 				E15C2E62241F99190025EC41 /* Resources */,
 			);
 			path = CoronaVirus;
@@ -117,6 +120,59 @@
 				E1A33A492420CAA100B85993 /* 03-16-2020.csv */,
 			);
 			path = "Sample Data";
+			sourceTree = "<group>";
+		};
+		E1A33A512420CE0000B85993 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1A33A522420CE1800B85993 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E1A33A582420DECE00B85993 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		E1A33A532420CE2C00B85993 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				E1A33A512420CE0000B85993 /* Model */,
+				E1A33A572420CE5500B85993 /* Repositories */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		E1A33A572420CE5500B85993 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		E1A33A582420DECE00B85993 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E15C2E51241F98620025EC41 /* MapViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E1A33A592420DF0700B85993 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1A33A5A2420DF5E00B85993 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,7 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E15C2E52241F98620025EC41 /* ViewController.swift in Sources */,
+				E15C2E52241F98620025EC41 /* MapViewController.swift in Sources */,
 				E15C2E4E241F98620025EC41 /* AppDelegate.swift in Sources */,
 				E15C2E50241F98620025EC41 /* SceneDelegate.swift in Sources */,
 			);
