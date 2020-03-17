@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,17 @@
 		E15C2E55241F98620025EC41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15C2E53241F98620025EC41 /* Main.storyboard */; };
 		E15C2E57241F987A0025EC41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15C2E56241F987A0025EC41 /* Assets.xcassets */; };
 		E15C2E5A241F987B0025EC41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15C2E58241F987B0025EC41 /* LaunchScreen.storyboard */; };
+		E15C2E65241FCC150025EC41 /* FloatingPanel in Frameworks */ = {isa = PBXBuildFile; productRef = E15C2E64241FCC150025EC41 /* FloatingPanel */; };
+		E15C2E68241FD6EB0025EC41 /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = E15C2E67241FD6EB0025EC41 /* PromiseKit */; };
+		E15C2E6B241FD72D0025EC41 /* Disk in Frameworks */ = {isa = PBXBuildFile; productRef = E15C2E6A241FD72D0025EC41 /* Disk */; };
+		E15C2E6E241FD79F0025EC41 /* CSV in Frameworks */ = {isa = PBXBuildFile; productRef = E15C2E6D241FD79F0025EC41 /* CSV */; };
+		E15C2E71241FD8370025EC41 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = E15C2E70241FD8370025EC41 /* Charts */; };
+		E1A33A4B2420CAA200B85993 /* report.json in Resources */ = {isa = PBXBuildFile; fileRef = E1A33A452420CAA100B85993 /* report.json */; };
+		E1A33A4C2420CAA200B85993 /* time_series_19-covid-Recovered.csv in Resources */ = {isa = PBXBuildFile; fileRef = E1A33A462420CAA100B85993 /* time_series_19-covid-Recovered.csv */; };
+		E1A33A4D2420CAA200B85993 /* time_series_19-covid-Deaths.csv in Resources */ = {isa = PBXBuildFile; fileRef = E1A33A472420CAA100B85993 /* time_series_19-covid-Deaths.csv */; };
+		E1A33A4E2420CAA200B85993 /* globlal.json in Resources */ = {isa = PBXBuildFile; fileRef = E1A33A482420CAA100B85993 /* globlal.json */; };
+		E1A33A4F2420CAA200B85993 /* 03-16-2020.csv in Resources */ = {isa = PBXBuildFile; fileRef = E1A33A492420CAA100B85993 /* 03-16-2020.csv */; };
+		E1A33A502420CAA200B85993 /* time_series_19-covid-Confirmed.csv in Resources */ = {isa = PBXBuildFile; fileRef = E1A33A4A2420CAA100B85993 /* time_series_19-covid-Confirmed.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,12 @@
 		E15C2E56241F987A0025EC41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E15C2E59241F987B0025EC41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E15C2E5B241F987B0025EC41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1A33A452420CAA100B85993 /* report.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = report.json; sourceTree = "<group>"; };
+		E1A33A462420CAA100B85993 /* time_series_19-covid-Recovered.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "time_series_19-covid-Recovered.csv"; sourceTree = "<group>"; };
+		E1A33A472420CAA100B85993 /* time_series_19-covid-Deaths.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "time_series_19-covid-Deaths.csv"; sourceTree = "<group>"; };
+		E1A33A482420CAA100B85993 /* globlal.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = globlal.json; sourceTree = "<group>"; };
+		E1A33A492420CAA100B85993 /* 03-16-2020.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "03-16-2020.csv"; sourceTree = "<group>"; };
+		E1A33A4A2420CAA100B85993 /* time_series_19-covid-Confirmed.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "time_series_19-covid-Confirmed.csv"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E15C2E71241FD8370025EC41 /* Charts in Frameworks */,
+				E15C2E65241FCC150025EC41 /* FloatingPanel in Frameworks */,
+				E15C2E6B241FD72D0025EC41 /* Disk in Frameworks */,
+				E15C2E68241FD6EB0025EC41 /* PromiseKit in Frameworks */,
+				E15C2E6E241FD79F0025EC41 /* CSV in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +97,26 @@
 		E15C2E62241F99190025EC41 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E1A33A442420CAA100B85993 /* Sample Data */,
 				E15C2E53241F98620025EC41 /* Main.storyboard */,
 				E15C2E56241F987A0025EC41 /* Assets.xcassets */,
 				E15C2E58241F987B0025EC41 /* LaunchScreen.storyboard */,
 				E15C2E5B241F987B0025EC41 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		E1A33A442420CAA100B85993 /* Sample Data */ = {
+			isa = PBXGroup;
+			children = (
+				E1A33A452420CAA100B85993 /* report.json */,
+				E1A33A482420CAA100B85993 /* globlal.json */,
+				E1A33A462420CAA100B85993 /* time_series_19-covid-Recovered.csv */,
+				E1A33A472420CAA100B85993 /* time_series_19-covid-Deaths.csv */,
+				E1A33A4A2420CAA100B85993 /* time_series_19-covid-Confirmed.csv */,
+				E1A33A492420CAA100B85993 /* 03-16-2020.csv */,
+			);
+			path = "Sample Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +135,13 @@
 			dependencies = (
 			);
 			name = CoronaVirus;
+			packageProductDependencies = (
+				E15C2E64241FCC150025EC41 /* FloatingPanel */,
+				E15C2E67241FD6EB0025EC41 /* PromiseKit */,
+				E15C2E6A241FD72D0025EC41 /* Disk */,
+				E15C2E6D241FD79F0025EC41 /* CSV */,
+				E15C2E70241FD8370025EC41 /* Charts */,
+			);
 			productName = CoronaVirus;
 			productReference = E15C2E4A241F98620025EC41 /* CoronaVirus.app */;
 			productType = "com.apple.product-type.application";
@@ -127,6 +170,13 @@
 				Base,
 			);
 			mainGroup = E15C2E41241F98610025EC41;
+			packageReferences = (
+				E15C2E63241FCC150025EC41 /* XCRemoteSwiftPackageReference "FloatingPanel" */,
+				E15C2E66241FD6EB0025EC41 /* XCRemoteSwiftPackageReference "PromiseKit" */,
+				E15C2E69241FD72D0025EC41 /* XCRemoteSwiftPackageReference "Disk" */,
+				E15C2E6C241FD79F0025EC41 /* XCRemoteSwiftPackageReference "CSV.swift" */,
+				E15C2E6F241FD8370025EC41 /* XCRemoteSwiftPackageReference "Charts" */,
+			);
 			productRefGroup = E15C2E4B241F98620025EC41 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,9 +191,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1A33A4F2420CAA200B85993 /* 03-16-2020.csv in Resources */,
 				E15C2E5A241F987B0025EC41 /* LaunchScreen.storyboard in Resources */,
+				E1A33A4E2420CAA200B85993 /* globlal.json in Resources */,
+				E1A33A4D2420CAA200B85993 /* time_series_19-covid-Deaths.csv in Resources */,
 				E15C2E57241F987A0025EC41 /* Assets.xcassets in Resources */,
+				E1A33A502420CAA200B85993 /* time_series_19-covid-Confirmed.csv in Resources */,
 				E15C2E55241F98620025EC41 /* Main.storyboard in Resources */,
+				E1A33A4B2420CAA200B85993 /* report.json in Resources */,
+				E1A33A4C2420CAA200B85993 /* time_series_19-covid-Recovered.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +408,77 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E15C2E63241FCC150025EC41 /* XCRemoteSwiftPackageReference "FloatingPanel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SCENEE/FloatingPanel.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.7.4;
+			};
+		};
+		E15C2E66241FD6EB0025EC41 /* XCRemoteSwiftPackageReference "PromiseKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mxcl/PromiseKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.13.1;
+			};
+		};
+		E15C2E69241FD72D0025EC41 /* XCRemoteSwiftPackageReference "Disk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/saoudrizwan/Disk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.4;
+			};
+		};
+		E15C2E6C241FD79F0025EC41 /* XCRemoteSwiftPackageReference "CSV.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yaslab/CSV.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.3;
+			};
+		};
+		E15C2E6F241FD8370025EC41 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E15C2E64241FCC150025EC41 /* FloatingPanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E15C2E63241FCC150025EC41 /* XCRemoteSwiftPackageReference "FloatingPanel" */;
+			productName = FloatingPanel;
+		};
+		E15C2E67241FD6EB0025EC41 /* PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E15C2E66241FD6EB0025EC41 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PromiseKit;
+		};
+		E15C2E6A241FD72D0025EC41 /* Disk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E15C2E69241FD72D0025EC41 /* XCRemoteSwiftPackageReference "Disk" */;
+			productName = Disk;
+		};
+		E15C2E6D241FD79F0025EC41 /* CSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E15C2E6C241FD79F0025EC41 /* XCRemoteSwiftPackageReference "CSV.swift" */;
+			productName = CSV;
+		};
+		E15C2E70241FD8370025EC41 /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E15C2E6F241FD8370025EC41 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E15C2E42241F98610025EC41 /* Project object */;
 }
