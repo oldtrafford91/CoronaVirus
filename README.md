@@ -11,5 +11,5 @@ iOS app for tracking Corona Virus cases
 ## Data
 
 ## License
-
+This app is under MIT License
 
