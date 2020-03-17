@@ -15,6 +15,8 @@ iOS app for tracking Corona Virus cases
 
 ## Data
 
+Data is provided by this [repo](https://github.com/CSSEGISandData/COVID-19)
+
 ## License
 This app is under MIT License
 
