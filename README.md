@@ -8,10 +8,10 @@ iOS app for tracking Corona Virus cases
 
 ## Todo
 
-- [] Download CSV file
-- [] Parsing CSV
-- [] Design model using `Codable`
-- [] Implement `MapViewController`
+- [ ] Download CSV file
+- [ ] Parsing CSV
+- [ ] Design model using `Codable`
+- [ ] Implement `MapViewController`
 
 ## Data
 
