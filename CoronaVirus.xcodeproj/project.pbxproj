@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E136DDA32423660500423B0F /* ReportParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E136DDA22423660500423B0F /* ReportParser.swift */; };
+		E136DDA524236E7800423B0F /* TimeSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = E136DDA424236E7800423B0F /* TimeSeries.swift */; };
+		E136ECD32427B62C005530FB /* Locale+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E136ECD22427B62C005530FB /* Locale+Extensions.swift */; };
 		E15C2E4E241F98620025EC41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C2E4D241F98620025EC41 /* AppDelegate.swift */; };
 		E15C2E50241F98620025EC41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C2E4F241F98620025EC41 /* SceneDelegate.swift */; };
 		E15C2E52241F98620025EC41 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C2E51241F98620025EC41 /* MapViewController.swift */; };
@@ -32,7 +33,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E136DDA22423660500423B0F /* ReportParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportParser.swift; sourceTree = "<group>"; };
+		E136DDA424236E7800423B0F /* TimeSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSeries.swift; sourceTree = "<group>"; };
+		E136ECD22427B62C005530FB /* Locale+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Locale+Extensions.swift"; sourceTree = "<group>"; };
 		E15C2E4A241F98620025EC41 /* CoronaVirus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoronaVirus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15C2E4D241F98620025EC41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E15C2E4F241F98620025EC41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				E1A33A7224223E8200B85993 /* Coordinate.swift */,
 				E1A33A7424223EA000B85993 /* Region.swift */,
 				E1A33A7624223EB800B85993 /* Statistic.swift */,
+				E136DDA424236E7800423B0F /* TimeSeries.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 		E1A33A5A2420DF5E00B85993 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				E136ECD22427B62C005530FB /* Locale+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -194,7 +198,6 @@
 		E1A33A6724221E7800B85993 /* Remote */ = {
 			isa = PBXGroup;
 			children = (
-				E136DDA22423660500423B0F /* ReportParser.swift */,
 			);
 			path = Remote;
 			sourceTree = "<group>";
@@ -298,13 +301,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1A33A7324223E8200B85993 /* Coordinate.swift in Sources */,
+				E136DDA524236E7800423B0F /* TimeSeries.swift in Sources */,
 				E15C2E52241F98620025EC41 /* MapViewController.swift in Sources */,
 				E1A33A7524223EA000B85993 /* Region.swift in Sources */,
 				E15C2E4E241F98620025EC41 /* AppDelegate.swift in Sources */,
-				E136DDA32423660500423B0F /* ReportParser.swift in Sources */,
 				E15C2E50241F98620025EC41 /* SceneDelegate.swift in Sources */,
 				E1A33A7724223EB800B85993 /* Statistic.swift in Sources */,
 				E1A33A7124223E6400B85993 /* Report.swift in Sources */,
+				E136ECD32427B62C005530FB /* Locale+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
