@@ -1,9 +1,11 @@
 import UIKit
+import MapKit
 import CSV
 import PromiseKit
 
 class MapViewController: UIViewController {
   
+  let mapView = MKMapView()
  
   
   private func readCSV(fileName: String) -> (headerRow: [String]?, dataRows: [[String]]){
@@ -64,7 +66,12 @@ class MapViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    
-    
+    view.addSubview(mapView)
+    mapView.frame = CGRect(x: 0, y: 0, width: view.bounds.width, height: view.bounds.height)
+    mapView.delegate = self
   }
+}
+
+extension MapViewController: MKMapViewDelegate {
+  
 }

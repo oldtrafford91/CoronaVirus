@@ -17,6 +17,8 @@
 		E1552333244831330067A7A3 /* FloatingPanel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E1552331244831330067A7A3 /* FloatingPanel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E1552335244831360067A7A3 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1552334244831350067A7A3 /* PromiseKit.framework */; };
 		E1552336244831360067A7A3 /* PromiseKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E1552334244831350067A7A3 /* PromiseKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E1552338244841E80067A7A3 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1552337244841E80067A7A3 /* Charts.framework */; };
+		E1552339244841E80067A7A3 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E1552337244841E80067A7A3 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E15C2E4E241F98620025EC41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C2E4D241F98620025EC41 /* AppDelegate.swift */; };
 		E15C2E50241F98620025EC41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C2E4F241F98620025EC41 /* SceneDelegate.swift */; };
 		E15C2E52241F98620025EC41 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C2E51241F98620025EC41 /* MapViewController.swift */; };
@@ -44,6 +46,7 @@
 			files = (
 				E155232C2448312F0067A7A3 /* CSV.framework in Embed Frameworks */,
 				E1552333244831330067A7A3 /* FloatingPanel.framework in Embed Frameworks */,
+				E1552339244841E80067A7A3 /* Charts.framework in Embed Frameworks */,
 				E1552330244831310067A7A3 /* Disk.framework in Embed Frameworks */,
 				E1552336244831360067A7A3 /* PromiseKit.framework in Embed Frameworks */,
 			);
@@ -59,6 +62,7 @@
 		E155232E244831310067A7A3 /* Disk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Disk.framework; path = Carthage/Build/iOS/Disk.framework; sourceTree = "<group>"; };
 		E1552331244831330067A7A3 /* FloatingPanel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FloatingPanel.framework; path = Carthage/Build/iOS/FloatingPanel.framework; sourceTree = "<group>"; };
 		E1552334244831350067A7A3 /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = Carthage/Build/iOS/PromiseKit.framework; sourceTree = "<group>"; };
+		E1552337244841E80067A7A3 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = Carthage/Build/iOS/Charts.framework; sourceTree = "<group>"; };
 		E15C2E4A241F98620025EC41 /* CoronaVirus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoronaVirus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15C2E4D241F98620025EC41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E15C2E4F241F98620025EC41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 			files = (
 				E155232B2448312F0067A7A3 /* CSV.framework in Frameworks */,
 				E1552332244831330067A7A3 /* FloatingPanel.framework in Frameworks */,
+				E1552338244841E80067A7A3 /* Charts.framework in Frameworks */,
 				E155232F244831310067A7A3 /* Disk.framework in Frameworks */,
 				E1552335244831360067A7A3 /* PromiseKit.framework in Frameworks */,
 			);
@@ -97,6 +102,7 @@
 		E15523292448312F0067A7A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E1552337244841E80067A7A3 /* Charts.framework */,
 				E1552334244831350067A7A3 /* PromiseKit.framework */,
 				E1552331244831330067A7A3 /* FloatingPanel.framework */,
 				E155232E244831310067A7A3 /* Disk.framework */,
