@@ -1,0 +1,4 @@
+github "mxcl/PromiseKit" "6.13.1"
+github "saoudrizwan/Disk" "0.6.4"
+github "scenee/FloatingPanel" "v1.7.4"
+github "yaslab/CSV.swift" "2.4.3"

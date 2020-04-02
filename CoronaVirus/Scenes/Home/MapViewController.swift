@@ -50,9 +50,12 @@ class MapViewController: UIViewController {
           let latitude = Double(confirmedSeries[2]) ?? 0
           let longitude = Double(confirmedSeries[3]) ?? 0
           let coordinate = Coordinate(latitude: latitude, longitude: longitude)
+          let province = confirmedSeries
           
-//          let timeSeries = TimeSeries(series: series)
-//           let region = Region(province: confirmedSeries[0], country: confirmedSeries[1], coordinate: coordinate)
+          let report = Report(lastUpdate: date, statistic: stats)
+          
+          let timeSeries = TimeSeries(series: series)
+          let region = Region(province: "", country: "", coordinate: coordinate, report: report, timeSeries: timeSeries)
           seal.reject(NSError())
         }
       }

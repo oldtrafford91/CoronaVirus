@@ -3,23 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		E136DDA524236E7800423B0F /* TimeSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = E136DDA424236E7800423B0F /* TimeSeries.swift */; };
 		E136ECD32427B62C005530FB /* Locale+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E136ECD22427B62C005530FB /* Locale+Extensions.swift */; };
+		E155232B2448312F0067A7A3 /* CSV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E155232A2448312F0067A7A3 /* CSV.framework */; };
+		E155232C2448312F0067A7A3 /* CSV.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E155232A2448312F0067A7A3 /* CSV.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E155232F244831310067A7A3 /* Disk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E155232E244831310067A7A3 /* Disk.framework */; };
+		E1552330244831310067A7A3 /* Disk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E155232E244831310067A7A3 /* Disk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E1552332244831330067A7A3 /* FloatingPanel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1552331244831330067A7A3 /* FloatingPanel.framework */; };
+		E1552333244831330067A7A3 /* FloatingPanel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E1552331244831330067A7A3 /* FloatingPanel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E1552335244831360067A7A3 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1552334244831350067A7A3 /* PromiseKit.framework */; };
+		E1552336244831360067A7A3 /* PromiseKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E1552334244831350067A7A3 /* PromiseKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E15C2E4E241F98620025EC41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C2E4D241F98620025EC41 /* AppDelegate.swift */; };
 		E15C2E50241F98620025EC41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C2E4F241F98620025EC41 /* SceneDelegate.swift */; };
 		E15C2E52241F98620025EC41 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C2E51241F98620025EC41 /* MapViewController.swift */; };
 		E15C2E55241F98620025EC41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15C2E53241F98620025EC41 /* Main.storyboard */; };
 		E15C2E57241F987A0025EC41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15C2E56241F987A0025EC41 /* Assets.xcassets */; };
 		E15C2E5A241F987B0025EC41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15C2E58241F987B0025EC41 /* LaunchScreen.storyboard */; };
-		E15C2E65241FCC150025EC41 /* FloatingPanel in Frameworks */ = {isa = PBXBuildFile; productRef = E15C2E64241FCC150025EC41 /* FloatingPanel */; };
-		E15C2E68241FD6EB0025EC41 /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = E15C2E67241FD6EB0025EC41 /* PromiseKit */; };
-		E15C2E6B241FD72D0025EC41 /* Disk in Frameworks */ = {isa = PBXBuildFile; productRef = E15C2E6A241FD72D0025EC41 /* Disk */; };
-		E15C2E6E241FD79F0025EC41 /* CSV in Frameworks */ = {isa = PBXBuildFile; productRef = E15C2E6D241FD79F0025EC41 /* CSV */; };
-		E15C2E71241FD8370025EC41 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = E15C2E70241FD8370025EC41 /* Charts */; };
 		E1A33A4B2420CAA200B85993 /* report.json in Resources */ = {isa = PBXBuildFile; fileRef = E1A33A452420CAA100B85993 /* report.json */; };
 		E1A33A4C2420CAA200B85993 /* time_series_19-covid-Recovered.csv in Resources */ = {isa = PBXBuildFile; fileRef = E1A33A462420CAA100B85993 /* time_series_19-covid-Recovered.csv */; };
 		E1A33A4D2420CAA200B85993 /* time_series_19-covid-Deaths.csv in Resources */ = {isa = PBXBuildFile; fileRef = E1A33A472420CAA100B85993 /* time_series_19-covid-Deaths.csv */; };
@@ -32,9 +35,30 @@
 		E1A33A7724223EB800B85993 /* Statistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A33A7624223EB800B85993 /* Statistic.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E155232D2448312F0067A7A3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E155232C2448312F0067A7A3 /* CSV.framework in Embed Frameworks */,
+				E1552333244831330067A7A3 /* FloatingPanel.framework in Embed Frameworks */,
+				E1552330244831310067A7A3 /* Disk.framework in Embed Frameworks */,
+				E1552336244831360067A7A3 /* PromiseKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		E136DDA424236E7800423B0F /* TimeSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSeries.swift; sourceTree = "<group>"; };
 		E136ECD22427B62C005530FB /* Locale+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Locale+Extensions.swift"; sourceTree = "<group>"; };
+		E155232A2448312F0067A7A3 /* CSV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CSV.framework; path = Carthage/Build/iOS/CSV.framework; sourceTree = "<group>"; };
+		E155232E244831310067A7A3 /* Disk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Disk.framework; path = Carthage/Build/iOS/Disk.framework; sourceTree = "<group>"; };
+		E1552331244831330067A7A3 /* FloatingPanel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FloatingPanel.framework; path = Carthage/Build/iOS/FloatingPanel.framework; sourceTree = "<group>"; };
+		E1552334244831350067A7A3 /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = Carthage/Build/iOS/PromiseKit.framework; sourceTree = "<group>"; };
 		E15C2E4A241F98620025EC41 /* CoronaVirus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoronaVirus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15C2E4D241F98620025EC41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E15C2E4F241F98620025EC41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,22 +84,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E15C2E71241FD8370025EC41 /* Charts in Frameworks */,
-				E15C2E65241FCC150025EC41 /* FloatingPanel in Frameworks */,
-				E15C2E6B241FD72D0025EC41 /* Disk in Frameworks */,
-				E15C2E68241FD6EB0025EC41 /* PromiseKit in Frameworks */,
-				E15C2E6E241FD79F0025EC41 /* CSV in Frameworks */,
+				E155232B2448312F0067A7A3 /* CSV.framework in Frameworks */,
+				E1552332244831330067A7A3 /* FloatingPanel.framework in Frameworks */,
+				E155232F244831310067A7A3 /* Disk.framework in Frameworks */,
+				E1552335244831360067A7A3 /* PromiseKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E15523292448312F0067A7A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1552334244831350067A7A3 /* PromiseKit.framework */,
+				E1552331244831330067A7A3 /* FloatingPanel.framework */,
+				E155232E244831310067A7A3 /* Disk.framework */,
+				E155232A2448312F0067A7A3 /* CSV.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E15C2E41241F98610025EC41 = {
 			isa = PBXGroup;
 			children = (
 				E15C2E4C241F98620025EC41 /* CoronaVirus */,
 				E15C2E4B241F98620025EC41 /* Products */,
+				E15523292448312F0067A7A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -219,6 +254,7 @@
 				E15C2E46241F98620025EC41 /* Sources */,
 				E15C2E47241F98620025EC41 /* Frameworks */,
 				E15C2E48241F98620025EC41 /* Resources */,
+				E155232D2448312F0067A7A3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -226,11 +262,6 @@
 			);
 			name = CoronaVirus;
 			packageProductDependencies = (
-				E15C2E64241FCC150025EC41 /* FloatingPanel */,
-				E15C2E67241FD6EB0025EC41 /* PromiseKit */,
-				E15C2E6A241FD72D0025EC41 /* Disk */,
-				E15C2E6D241FD79F0025EC41 /* CSV */,
-				E15C2E70241FD8370025EC41 /* Charts */,
 			);
 			productName = CoronaVirus;
 			productReference = E15C2E4A241F98620025EC41 /* CoronaVirus.app */;
@@ -261,11 +292,6 @@
 			);
 			mainGroup = E15C2E41241F98610025EC41;
 			packageReferences = (
-				E15C2E63241FCC150025EC41 /* XCRemoteSwiftPackageReference "FloatingPanel" */,
-				E15C2E66241FD6EB0025EC41 /* XCRemoteSwiftPackageReference "PromiseKit" */,
-				E15C2E69241FD72D0025EC41 /* XCRemoteSwiftPackageReference "Disk" */,
-				E15C2E6C241FD79F0025EC41 /* XCRemoteSwiftPackageReference "CSV.swift" */,
-				E15C2E6F241FD8370025EC41 /* XCRemoteSwiftPackageReference "Charts" */,
 			);
 			productRefGroup = E15C2E4B241F98620025EC41 /* Products */;
 			projectDirPath = "";
@@ -453,6 +479,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CoronaVirus/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -470,6 +500,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CoronaVirus/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -504,77 +538,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		E15C2E63241FCC150025EC41 /* XCRemoteSwiftPackageReference "FloatingPanel" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SCENEE/FloatingPanel.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.7.4;
-			};
-		};
-		E15C2E66241FD6EB0025EC41 /* XCRemoteSwiftPackageReference "PromiseKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/mxcl/PromiseKit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.13.1;
-			};
-		};
-		E15C2E69241FD72D0025EC41 /* XCRemoteSwiftPackageReference "Disk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/saoudrizwan/Disk.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.6.4;
-			};
-		};
-		E15C2E6C241FD79F0025EC41 /* XCRemoteSwiftPackageReference "CSV.swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/yaslab/CSV.swift.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.4.3;
-			};
-		};
-		E15C2E6F241FD8370025EC41 /* XCRemoteSwiftPackageReference "Charts" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/danielgindi/Charts.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.4.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		E15C2E64241FCC150025EC41 /* FloatingPanel */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E15C2E63241FCC150025EC41 /* XCRemoteSwiftPackageReference "FloatingPanel" */;
-			productName = FloatingPanel;
-		};
-		E15C2E67241FD6EB0025EC41 /* PromiseKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E15C2E66241FD6EB0025EC41 /* XCRemoteSwiftPackageReference "PromiseKit" */;
-			productName = PromiseKit;
-		};
-		E15C2E6A241FD72D0025EC41 /* Disk */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E15C2E69241FD72D0025EC41 /* XCRemoteSwiftPackageReference "Disk" */;
-			productName = Disk;
-		};
-		E15C2E6D241FD79F0025EC41 /* CSV */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E15C2E6C241FD79F0025EC41 /* XCRemoteSwiftPackageReference "CSV.swift" */;
-			productName = CSV;
-		};
-		E15C2E70241FD8370025EC41 /* Charts */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E15C2E6F241FD8370025EC41 /* XCRemoteSwiftPackageReference "Charts" */;
-			productName = Charts;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E15C2E42241F98610025EC41 /* Project object */;
 }
